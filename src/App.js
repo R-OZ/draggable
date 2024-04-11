@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useLayoutEffect} from 'react'
+import React, {useState, useEffect} from 'react'
 import './index.css';
 import Resizable from './components/resizable';
 import Customers from './components/customers';
