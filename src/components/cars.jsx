@@ -8,7 +8,7 @@ import { FormSelect } from './formElements';
 import { getAddCount, getUpdateCount } from '../api/count';
 
 
-const carMake = [ "Toyota", "Honda", "Ford", "Chevrolet", "Nissan", "BMW", "Mercedes-Benz", "Audi", "Volkswagen", "Subaru", "Hyundai", "Porsche"];
+const carMake = [ "Toyota", "Honda", "Ford", "Chevrolet", "Nissan", "BMW", "Mercedes-Benz", "Ferrari", "Bugatti", "Audi", "Volkswagen", "Subaru", "Hyundai", "Porsche"];
 const carType = ["Sedan", "SUV", "Truck", "Hatchback", "Coupe", "Convertible", "Minivan", "Wagon", "Crossover",]
 const carCondition = ['New', 'Used'];
 const carYear = ['2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', 'Other'];
