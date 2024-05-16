@@ -8,8 +8,8 @@ const Resizable = ({children, width, height, type, setSize}) => {
 
   const isMobile = viewportWidth <=768;
 
-  const containerWidth = viewportWidth - 80
-  const containerHeight = viewportHeight - 80
+  const containerWidth = viewportWidth - 80;
+  const containerHeight = viewportHeight - 80;
 
   useEffect(() => {
     const handleResize = () => {
