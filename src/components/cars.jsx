@@ -60,7 +60,7 @@ const Cars = () => {
     if (!formData.id){
       setIsLoading(true)
       try {
-        let newFromData = {...formData, id: uuidv4()}
+        let newFromData = {...formData, id: uuidv4()};
         setFormData(newFromData)
         const res = await addCar(newFromData);
         const addCount = await getAddCount();
